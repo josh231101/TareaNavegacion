@@ -14,6 +14,10 @@
 		EFDFA4F12CCA129D00044C67 /* TareaNavegacionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDFA4F02CCA129D00044C67 /* TareaNavegacionTests.swift */; };
 		EFDFA4FB2CCA129D00044C67 /* TareaNavegacionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDFA4FA2CCA129D00044C67 /* TareaNavegacionUITests.swift */; };
 		EFDFA4FD2CCA129D00044C67 /* TareaNavegacionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDFA4FC2CCA129D00044C67 /* TareaNavegacionUITestsLaunchTests.swift */; };
+		EFDFA50A2CCA131600044C67 /* MeansOfTransportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDFA5092CCA131600044C67 /* MeansOfTransportView.swift */; };
+		EFDFA50C2CCA133800044C67 /* CardViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDFA50B2CCA133800044C67 /* CardViewModifier.swift */; };
+		EFDFA50E2CCA135700044C67 /* TrainCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDFA50D2CCA135700044C67 /* TrainCardView.swift */; };
+		EFDFA5102CCA14C900044C67 /* TransportsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDFA50F2CCA14C900044C67 /* TransportsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		EFDFA4F62CCA129D00044C67 /* TareaNavegacionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TareaNavegacionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFDFA4FA2CCA129D00044C67 /* TareaNavegacionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TareaNavegacionUITests.swift; sourceTree = "<group>"; };
 		EFDFA4FC2CCA129D00044C67 /* TareaNavegacionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TareaNavegacionUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EFDFA5092CCA131600044C67 /* MeansOfTransportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeansOfTransportView.swift; sourceTree = "<group>"; };
+		EFDFA50B2CCA133800044C67 /* CardViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewModifier.swift; sourceTree = "<group>"; };
+		EFDFA50D2CCA135700044C67 /* TrainCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainCardView.swift; sourceTree = "<group>"; };
+		EFDFA50F2CCA14C900044C67 /* TransportsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransportsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +106,10 @@
 				EFDFA4E12CCA129A00044C67 /* ContentView.swift */,
 				EFDFA4E32CCA129C00044C67 /* Assets.xcassets */,
 				EFDFA4E52CCA129C00044C67 /* Preview Content */,
+				EFDFA5092CCA131600044C67 /* MeansOfTransportView.swift */,
+				EFDFA50B2CCA133800044C67 /* CardViewModifier.swift */,
+				EFDFA50D2CCA135700044C67 /* TrainCardView.swift */,
+				EFDFA50F2CCA14C900044C67 /* TransportsView.swift */,
 			);
 			path = TareaNavegacion;
 			sourceTree = "<group>";
@@ -257,8 +269,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFDFA50E2CCA135700044C67 /* TrainCardView.swift in Sources */,
 				EFDFA4E22CCA129A00044C67 /* ContentView.swift in Sources */,
+				EFDFA50C2CCA133800044C67 /* CardViewModifier.swift in Sources */,
 				EFDFA4E02CCA129A00044C67 /* TareaNavegacionApp.swift in Sources */,
+				EFDFA5102CCA14C900044C67 /* TransportsView.swift in Sources */,
+				EFDFA50A2CCA131600044C67 /* MeansOfTransportView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
